@@ -1,0 +1,86 @@
+/*
+
+Styleshet create by Hayden Dwire
+Copyright (c) 2017 Hayden Dwire. All rights reserved.
+
+*/
+
+/* Main Website functons */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald');
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	background-color: #efefef;
+	padding-top: 5rem;
+	margin: 0 0 15rem;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: #d86500;
+}
+
+a:hover, a:active {
+	text-decoration: underline;
+	color: #d86500;
+}
+
+h1, h2, h3 {
+	font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+	font-size: 26pt;
+}
+
+h2 {
+	font-size: 20pt;
+}
+
+h3 {
+	font-size: 16pt;
+}
+
+div#siteTitle a, div#siteTitle a:visited {
+	text-decoration: none;
+	color: #fff;
+	font-size: 24pt;
+}
+
+div#siteTitle a:hover, div#siteTitle a:active {
+	text-decoration: underline;
+	color: #fff;
+	text-shadow:
+    -3px -3px 0 #222,
+    3px -3px 0 #222,
+    -3px 3px 0 #222,
+    3px 3px 0 #222;
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+	font-size: 10pt;
+	margin-top: 5rem;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+
+.black {
+	background-color: #000;
+}
+
+.row {
+	margin-top: 1.5rem;
+}

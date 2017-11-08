@@ -1,0 +1,23 @@
+<?php
+
+	// Site meta data information
+	define("SITE_TITLE", "Website Title");
+	define("FACEBOOK", "facebookUsername");
+	define("TWITTER", "twitterUsername");
+	define("INSTAGRAM", "instagramUsername");
+	define("ADMIN_EMAIL", "admin@example.com");
+	define("SITE_EMAIL", "noreply@example.com");
+	define('SITE_URL', 'http://example.com');
+	define('PATH', '/admin/');  // Path for admin portal ONLY, change if you'd like more security (thru obscurity), be sure to rename the folder to this name
+
+	//Database connection information
+	define("DBHOST", "localhost");
+	define("DBNAME", "database");
+	define("DBUSER", "username");
+	define("DBPASS", "password");
+
+	define("ACCESSKEY", ""); // Amazon product API access key
+	define("SECRET", ""); // Amazon product API secret key
+	define("ASSOCIATEID", ""); // Amazon affiliate account ID
+
+?>

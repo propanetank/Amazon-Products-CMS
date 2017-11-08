@@ -1,0 +1,6 @@
+
+## Rewrite rules to translate ?page=blah to /blah
+RewriteEngine On
+RewriteBase /Shower%20Heads/
+RewriteRule ^([a-zA-Z0-9]+)$ index.php?page=$1 [NC,L,QSA]
+## End rewrite rules
