@@ -10,7 +10,7 @@ End goal is to have a simple PHP CMS that will display Amazon products for the A
 - That's about it
 
 ## Planned
-- Backend that lets admins add amazon products into the database. The application will download(?) the images and shit for you so on the product pages, it just pulls the info from the database. Neat huh (I hope)
+- Backend that lets admins add amazon products into the database. The application will download(?) the images and shit for you, so on the product pages, it just pulls the info from the database. Neat huh (I hope)
 - Ability to load items from the database and display them all pretty like in cards and stuff, should be cool
 - Delete products, this should be handy
 - Edit products, also should be handy
