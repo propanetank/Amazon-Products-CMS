@@ -1,2 +1,3 @@
 *.sublime-*
 assets/required/config.php
+admin/backend/vendor

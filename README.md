@@ -4,6 +4,11 @@ Small and rather basic CMS for promoting Amazon products. Need more said? WIP
 
 End goal is to have a simple PHP CMS that will display Amazon products for the Amazon affiliate program. 
 
+## Requirements
+Currently the only requirement is to have MarcL/AmazonProductAPI which can be aquired using composer
+composer require marcl/amazonproductapi
+Make sure the vendor folder created from this command is in /admin/backend 
+
 ## Currently implemented
 - You can login to the backend if you manually create the database. Sometime I'll get around to having a dump of the table structures in the assets folder or somewhere that you can import into MySQL or similar DB, but today is not that day.
 - You can create pages, and if you have Apache2 web server with rewrite enabled, the website will work as intended. Pages are created in the pages folder (pretty simple ehh?), just follow the template of one of the pages already there.

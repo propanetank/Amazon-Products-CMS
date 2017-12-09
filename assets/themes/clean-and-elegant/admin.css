@@ -22,3 +22,8 @@ body {
   max-width: 800px;
   padding: 40px;
 }
+
+td.scroll {
+	width: 40%;
+	overflow-x: auto;
+}

@@ -10,6 +10,13 @@
 		}
 	}
 
+	function checkAPI() {
+		// Check if the API info has been set, if not, thow an error to update the info
+		if (!defined('ACCESSKEY') || !defined('SECRET') || !defined('ASSOCIATEID')) {
+			echo "<p class='text-danger'><b>Error, one or more API settings is not specified. These need to be added for this to work, they are found in /assets/required/config.php</b></p>";
+		}
+	}
+
 /*	function ssl() {
 		if (SSL) {
 			if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] == "off") {

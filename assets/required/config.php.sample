@@ -16,6 +16,8 @@
 	define("DBUSER", "username");
 	define("DBPASS", "password");
 
+	// Amazon Product API
+	define("MARKET", "us"); // Valid options are: us, br, ca, cn, de, es, fr, in, it, jp, mx, uk
 	define("ACCESSKEY", ""); // Amazon product API access key
 	define("SECRET", ""); // Amazon product API secret key
 	define("ASSOCIATEID", ""); // Amazon affiliate account ID
